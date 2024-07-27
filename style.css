@@ -1,0 +1,46 @@
+@keyframes color-change {
+    0% {
+      color: #f6dd02;
+    }
+  
+    50% {
+      color: rgb(0, 0, 0);
+    }
+  
+    100% {
+      color: #f6dd02;
+    }
+}
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 24px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #ffffff; /* El color del fondo de la página web */
+    color: #000000; /* El color del texto*/ 
+}
+h1 {
+    text-align: center;
+    animation: color-change 3s infinite;
+    color: #000000; /* El color de la cabecera */
+    font-size: 42px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+h2 {
+    text-align: justify;
+    border: 2px solid #f6dd02;
+    color: #000000; /* El color de la cabecera */
+    font-size: 30 px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Courier New', Courier, monospace; /* La familia tipográfica utilizada en la cabecera */
+}
+p{
+    text-align: justify;
+    color: #000000; /* El color de la cabecera */
+    text-decoration-color: #f6dd02;
+    text-decoration: underline #f6dd02;
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+img {
+    width: 200 px;
+    height: 200 px;
+}
